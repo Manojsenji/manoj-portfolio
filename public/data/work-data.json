@@ -1,0 +1,28 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/Ashurity1.JPEG",
+      "title": "Ashurity HealthCare Website",
+      "client": "Ashurity",
+      "slug": "https://www.ashurity.com/"
+    },
+    {
+      "image": "/images/work/myeduport1.JPEG",
+      "title": "MyEduPort",
+      "client": "In house project",
+      "slug": "https://staging.myeduport.in/"
+    },
+    {
+      "image": "/images/work/c2c.PNG",
+      "title": "Campus2Community",
+      "client": "Campus2Community",
+      "slug": "https://campus2community.org/"
+    },
+    {
+      "image": "/images/work/myportal1.PNG",
+      "title": "MyPortal",
+      "client": "In house project",
+      "slug": "https://myportal.pacecom.co/"
+    }
+  ]
+}
