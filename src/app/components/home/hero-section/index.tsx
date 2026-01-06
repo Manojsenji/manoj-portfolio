@@ -5,7 +5,7 @@ const index = () => {
   return (
     <section className="relative hero-section overflow-hidden pt-35 md:pt-40 pb-12 lg:pb-30 xl:pt-52">
       <div className="container">
-        <div className="lg:flex grid grid-cols-1 sm:grid-cols-2 gap-7 md:gap-4 items-center">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-24">
           <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
             <div>
               <div className="flex items-center gap-8">
@@ -31,23 +31,16 @@ const index = () => {
               experiences.
             </p>
           </div>
-          <Image
-            src={getImgPath("/images/home/banner/manoj.jpeg")}
-            alt="banner-img"
-            width={685}
-            height={650}
-            className="block lg:hidden"
-          />
+          <div className="w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] lg:w-[360px] lg:h-[360px]  overflow-hidden inline-block">
+            <Image
+              src={getImgPath("/images/home/banner/manoj.jpeg")}
+              alt="profile"
+              width={300}
+              height={300}
+              className="w-full h-full object-cover grayscale transition-all duration-500 hover:grayscale-0 hover:scale-105 rounded-2xl"
+            />
+          </div>
         </div>
-      </div>
-      <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5 rounded-2xl overflow-hidden">
-        <Image
-          src={getImgPath("/images/home/banner/manoj.jpeg")}
-          alt="banner-img"
-          width={685}
-          height={650}
-          className="absolute right-0 top-0 z-1 object-cover"
-        />
       </div>
     </section>
   );

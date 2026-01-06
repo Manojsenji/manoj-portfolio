@@ -49,15 +49,15 @@ export default function Contact() {
 
             <div className="space-y-4 text-gray-600 text-lg">
               <p className="flex items-center gap-3">
-                <Mail className="text-indigo-600" />
+                <Mail className="text-primary" />
                 manojsreenivas95@gmail.com
               </p>
               <p className="flex items-center gap-3">
-                <Phone className="text-purple-600" />
+                <Phone className="text-neutral-700" />
                 +91 8179054207
               </p>
               <p className="flex items-center gap-3">
-                <MapPin className="text-pink-600" />
+                <MapPin className="text-primary" />
                 Bangalore, India
               </p>
             </div>
