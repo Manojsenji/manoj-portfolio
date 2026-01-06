@@ -10,7 +10,7 @@ const Certifications = () => {
             {/* Section Header */}
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7">
               <h2>Certifications</h2>
-              <p className="text-xl text-primary">( 02 )</p>
+              <p className="text-xl text-primary">( 05 )</p>
             </div>
 
             {/* Content */}
