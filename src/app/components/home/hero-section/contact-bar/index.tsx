@@ -62,12 +62,12 @@ const ContactBar = () => {
                   href={value.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 rounded-full transition-colors duration-300 hover:bg-primary flex items-center justify-center">
+                  className="p-2 rounded-full transition-colors duration-300 hover:bg-auto flex items-center justify-center">
                   <Image
                     src={getImgPath(value.icon)}
                     alt={value.platform}
-                    width={30}
-                    height={30}
+                    width={50}
+                    height={50}
                     className="transition-transform duration-300 group-hover:scale-110"
                   />
                 </a>

@@ -16,8 +16,13 @@
     "socialItems": [
       {
         "platform": "linkedin",
-        "icon": "/images/icon/linkedin-icon.svg",
+        "icon": "/images/icon/linkedin_new.svg",
         "link": "https://www.linkedin.com/in/manojsenji"
+      },
+      {
+        "platform": "GitHub",
+        "icon": "/images/icon/github.png",
+        "link": "https://github.com/manojsenji"
       }
     ]
   },
