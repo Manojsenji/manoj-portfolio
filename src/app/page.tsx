@@ -1,4 +1,5 @@
 import AboutMe from "./components/home/about-me"
+import Certifications from "./components/home/Certifications/certifications"
 import Contact from "./components/home/contact"
 import EducationSkills from "./components/home/education-skills"
 import ExperienceSec from "./components/home/experience-sec"
@@ -16,10 +17,11 @@ const page = () => {
         <ExperienceSec />
         <EducationSkills />
         <LatestWork />
+        <Certifications />
         <Contact />
       </main>
     </>
-  )
+  );
 }
 
 export default page

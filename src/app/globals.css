@@ -138,3 +138,15 @@ button:hover::before {
     page-break-before: always;
   }
 }
+
+.badge-indigo {
+  @apply px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium;
+}
+
+.badge-purple {
+  @apply px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium;
+}
+
+.badge-pink {
+  @apply px-3 py-1 bg-pink-100 text-pink-700 rounded-full text-sm font-medium;
+}
