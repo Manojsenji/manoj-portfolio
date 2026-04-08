@@ -18,6 +18,46 @@ const Certifications = () => {
               {/* Certification Item */}
               <div className="flex flex-col gap-3 border-b border-mistGray pb-6">
                 <h3 className="text-xl font-semibold">
+                  Mobile Automation with Appium 2.0 and WebdriverIO - 2026
+                </h3>
+                <p className="text-lg text-black">
+                  Completed an in-depth course on Mobile Test Automation using
+                  Appium 2.0 with WebdriverIO. Gained hands-on experience in
+                  building scalable automation frameworks for Android and iOS
+                  applications.
+                </p>
+                <a
+                  href="/images/certificates/Mobile Automation with Appium 2.0 and WebdriverIO - 2026.jpg"
+                  target="_blank"
+                  className="text-primary text-lg font-medium w-fit hover:underline"
+                >
+                  View Certificate
+                </a>
+              </div>
+              {/* Certification Item */}
+              <div className="flex flex-col gap-3 border-b border-mistGray pb-6">
+                <h3 className="text-xl font-semibold">
+                  Playwright_JS_TS_Automation_Testing_From_Scratch_&_Framework
+                </h3>
+                <p className="text-lg text-black">
+                  Completed a comprehensive course on Playwright with JavaScript
+                  & TypeScript, gaining hands-on experience in end-to-end test
+                  automation, building scalable test frameworks, implementing
+                  Page Object Model (POM), API testing, and CI/CD integration.
+                  Developed skills in writing reliable, maintainable, and
+                  efficient automated tests for modern web applications.
+                </p>
+                <a
+                  href="/images/certificates/Playwright_JS_TS_Automation_Testing_From_Scratch_&_Framework.jpg"
+                  target="_blank"
+                  className="text-primary text-lg font-medium w-fit hover:underline"
+                >
+                  View Certificate
+                </a>
+              </div>
+              {/* Certification Item */}
+              <div className="flex flex-col gap-3 border-b border-mistGray pb-6">
+                <h3 className="text-xl font-semibold">
                   LambdaTest Product Certified – Automation Testing
                 </h3>
                 <p className="text-lg text-black">
