@@ -23,12 +23,12 @@ const index = () => {
               <h1>QA Automation Engineer</h1>
             </div>
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              Passionate about software quality and test automation, with
-              experience in designing efficient, maintainable test scripts using
-              Selenium, TestNG, Playwright, and Java. Skilled in Web, Mobile,
-              and API Automation, with strong exposure to CI/CD pipelines to
-              ensure reliable, scalable applications and seamless user
-              experiences.
+              Specialized in designing and maintaining robust test automation
+              frameworks using Selenium, Playwright, Java, and TestNG.
+              Experienced in Web, Mobile, and API testing, with strong knowledge
+              of CI/CD integration, Agile methodologies, and quality assurance
+              best practices. Passionate about improving software quality by
+              delivering reliable, scalable, and efficient automation solutions.
             </p>
           </div>
           <div className="w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] lg:w-[360px] lg:h-[360px]  overflow-hidden inline-block">
