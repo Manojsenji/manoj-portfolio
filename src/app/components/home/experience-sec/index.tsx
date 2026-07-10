@@ -3,17 +3,47 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
       {
+        year: "2022 - present",
+        title: "QA Automation and Manual Engineer",
+        company: "Pacecom Technologies Pvt Ltd", //https://pacecom.co.in/
+        type: "Fulltime",
+        description: (
+          <div className="text-gray-700 leading-relaxed">
+            I have a proven track record of identifying{" "}
+            <span className="font-semibold">critical issues</span>, ensuring
+            product quality, and working closely with{" "}
+            <span className="font-semibold">developers</span>,{" "}
+            <span className="font-semibold">product owners</span>, and
+            stakeholders in{" "}
+            <span className="font-semibold text-primary">
+              Agile environments
+            </span>
+            . My expertise includes{" "}
+            <span className="font-semibold">test case design</span>,{" "}
+            <span className="font-semibold">automation script development</span>
+            ,{" "}
+            <span className="font-semibold text-primary">
+              (Selenium + Java) , API testing (Postman)
+            </span>
+            , and continuous improvement of test processes. I take pride in
+            delivering{" "}
+            <span className="font-semibold">robust and reliable software</span>{" "}
+            through diligent testing and effective collaboration.
+          </div>
+        ),
+      },
+
+      {
         year: "2018 - 2022",
-        title:"Data Annotator | Annotation Quality Checker | Annotation Team Lead | Project Lead",
+        title:
+          "Data Annotator | Annotation Quality Checker | Annotation Team Lead | Project Lead",
         company: "Pacecom Technologies Pvt Ltd", //https://pacecom.co.in/
         type: "Fulltime",
         description: (
           <div className="text-gray-700 leading-relaxed">
             Led a team of{" "}
-            <span className="font-semibold">
-              20+ annotators and reviewers
-            </span>
-            , ensuring{" "}
+            <span className="font-semibold">20+ annotators and reviewers</span>,
+            ensuring{" "}
             <span className="font-semibold">high-quality delivery</span> of
             image and text annotation projects. Managed{" "}
             <span className="font-semibold">sprint planning</span>,{" "}
@@ -36,39 +66,7 @@ const ExperienceSec = () => {
             to improve overall team productivity and quality benchmarks.
           </div>
         ),
-      },
-      {
-        year: "2022 - present",
-        title: "QA Automation and Manual Engineer",
-        company: "Pacecom Technologies Pvt Ltd", //https://pacecom.co.in/
-        type: "Fulltime",
-        description: (
-          <div className="text-gray-700 leading-relaxed">
-            I have a proven track record of identifying{" "}
-            <span className="font-semibold">critical issues</span>,
-            ensuring product quality, and working closely with{" "}
-            <span className="font-semibold">developers</span>,{" "}
-            <span className="font-semibold">product owners</span>, and
-            stakeholders in{" "}
-            <span className="font-semibold text-primary">
-              Agile environments
-            </span>
-            . My expertise includes{" "}
-            <span className="font-semibold">test case design</span>,{" "}
-            <span className="font-semibold">automation script development</span>
-            ,{" "}
-            <span className="font-semibold text-primary">
-              (Selenium + Java) , API testing (Postman)
-            </span>
-            , and continuous improvement of test processes. I take pride in
-            delivering{" "}
-            <span className="font-semibold">
-              robust and reliable software
-            </span>{" "}
-            through diligent testing and effective collaboration.
-          </div>
-        ),
-      },
+      }
     ];
 
     return (
@@ -94,9 +92,9 @@ const ExperienceSec = () => {
                                     )}
 
                                     <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
-                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 1 ? 'border-primary' : 'border-black'
+                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 0 ? 'border-primary' : 'border-black'
                                             }`}>
-                                            {index === 1 && (
+                                            {index === 0 && (
                                                 <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
                                             )}
                                         </div>
