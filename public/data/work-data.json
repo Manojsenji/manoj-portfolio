@@ -1,6 +1,12 @@
 {
   "workData": [
     {
+      "image": "/images/work/PocketParcel.png",
+      "title": "Pocket Parcel",
+      "client": "Pocket parcel",
+      "slug": "https://www.pocketparcel.in/"
+    },
+    {
       "image": "/images/work/Ashurity1.jpeg",
       "title": "Ashurity HealthCare Website",
       "client": "Ashurity",

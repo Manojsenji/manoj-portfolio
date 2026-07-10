@@ -47,7 +47,7 @@
       {
         "name": "SQL",
         "icon": "/images/home/education-skill/sql-com.svg",
-        "rating": 4
+        "rating": 3
       },
       {
         "name": "Jenkins",
@@ -72,7 +72,7 @@
       {
         "name": "Playwright",
         "icon": "/images/home/education-skill/playwright.svg",
-        "rating": 2
+        "rating": 4
       },
       {
         "name": "Cypress",
